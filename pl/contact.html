@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contact - Daolab</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <script defer src="js/fontawesome-all.min.js"></script>
+  <title>Kontakt - Daolab</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <script defer src="../js/fontawesome-all.min.js"></script>
   <style>
     body {
       padding-top: 57px;
@@ -25,38 +25,38 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a href="index.html" class="nav-link">Home</a>
+            <a href="index.html" class="nav-link">Główna</a>
           </li>
           <li class="nav-item active">
-            <a href="services.html" class="nav-link active" aria-current="page">Services</a>
+            <a href="services.html" class="nav-link active" aria-current="page">Usługi</a>
           </li>
           <li class="nav-item">
-            <a href="about.html" class="nav-link">About</a>
+            <a href="about.html" class="nav-link">O nas</a>
           </li>
           <li class="nav-item">
-            <a href="team.html" class="nav-link">Team</a>
+            <a href="team.html" class="nav-link">Zespół</a>
           </li>
           <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="contact.html" class="nav-link">Kontakt</a>
           </li>
         </ul>
         <div class="dropdown">
-          <button class="btn btn-secondary btn-sm dropdown-toggle" id="dropdownLanguage" data-bs-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">Change Language:</button>
+          <button type="button" class="btn btn-secondary btn-sm dropdown-toggle" id="dropdownLanguage"
+            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Zmień język:</button>
           <div class="dropdown-menu" aria-labelledby="dropdownLanguage">
-            <a href="pl/contact.html" class="dropdown-item">Polski</a>
-            <a href="https://companyname.com/spanish" class="dropdown-item">Espanol</a>
-            <a href="https://companyname.com/norwegian" class="dropdown-item">Norsk</a>
+            <a href="../services.html" class="dropdown-item">English</a>
+            <a href="#0" class="dropdown-item">Espanol</a>
+            <a href="#0" class="dropdown-item">Norsk</a>
           </div>
         </div>
       </div>
     </div>
   </nav>
   <div class="container">
-    <h1 class="display-1 my-4 text-center">Contact</h1>
+    <h1 class="display-1 my-4 text-center">Kontakt</h1>
     <div class="row">
       <div class="col-12 col-sm-6 mb-3">
-        <h2 class="dipslay-2">Our location:</h2>
+        <h2 class="dipslay-2">Nasza lokalizacja:</h2>
         <address>
           <strong></strong><br>
           Romana Dmowskiego 3/9<br>
@@ -66,10 +66,10 @@
         </address>
       </div>
       <div class="col-12 col-sm-6 mb-3">
-        <h2 class="dipslay-2">Opening hours:</h2>
-        Monday-Thursday: <span class="float-end">10 am - 6 pm</span> <br>
-        Friday-Saturday: <span class="float-end">10 am - 10 pm</span> <br>
-        Sunday: <span class="float-end">10 am - 8 pm</span> <br>
+        <h2 class="dipslay-2">Godziny otwarcia:</h2>
+        Poniedziałek-Czwartek: <span class="float-end">10 - 18</span> <br>
+        Piątek-Sobota: <span class="float-end">8 - 20</span> <br>
+        Niedziela: <span class="float-end">10 - 20</span> <br>
       </div>
     </div>
   </div>
@@ -79,14 +79,14 @@
         <form action="" class="mt-3">
           <div class="row">
             <div class="col-12 col-lg-6 mb-3">
-              <div class="form-label" name="nameLabel" for="name">Name:</div>
+              <div class="form-label" name="nameLabel" for="name">Nazwa:</div>
               <div class="input-group">
                 <span class="input-group-text"><i class="fas fa-user"></i></span>
                 <input type="text" class="form-control" id="name" placeholder="John Doe" required>
               </div>
             </div>
             <div class="col-12 col-lg-6 mb-3">
-              <div class="form-label" name="phoneLabel" for="phone">Phone:</div>
+              <div class="form-label" name="phoneLabel" for="phone">Telefon:</div>
               <div class="input-group">
                 <span class="input-group-text"><i class="fas fa-phone"></i></span>
                 <input type="tel" class="form-control" id="phone" placeholder="+48 456123890" required>
@@ -102,29 +102,29 @@
               </div>
             </div>
             <div class="col-12 col-lg-6 mb-3">
-              <div class="form-label" name="depLabel" for="department">Department:</div>
+              <div class="form-label" name="depLabel" for="department">Dział:</div>
               <div class="input-group">
                 <span class="input-group-text"><i class="fas fa-house-user"></i></span>
                 <select id="department" class="form-select">
-                  <option value="">- select here -</option>
-                  <option value="technical">Technical</option>
+                  <option value="">- wybierz tutaj -</option>
+                  <option value="technical">Techniczny</option>
                   <option value="marketing">Marketing</option>
-                  <option value="enterprise">Enterprise</option>
-                  <option value="press">Press</option>
+                  <option value="enterprise">Zarząd</option>
+                  <option value="press">Prasa</option>
                 </select>
               </div>
             </div>
           </div>
           <div class="mb-3">
-            <label for="message" class="form-label">Message</label>
+            <label for="message" class="form-label">Wiadomość</label>
             <div class="input-group">
               <span class="input-group-text"><i class="fas fa-pencil-alt"></i></span>
-              <textarea class="form-control" name="message" id="message" rows="5" placeholder="Write your message"
+              <textarea class="form-control" name="message" id="message" rows="5" placeholder="Napisz swoją wiadomość"
                 required></textarea>
             </div>
           </div>
-          <button class="btn btn-primary me-2" type="submit">Submit</button>
-          <button class="btn btn-secondary" type="reset">Reset</button>
+          <button class="btn btn-primary me-2" type="submit">Dalej</button>
+          <button class="btn btn-secondary" type="reset">Kasuj</button>
         </form>
       </div>
       <div class="col-12 col-lg-6">
@@ -142,30 +142,32 @@
     <div class="container py-3 py-sm-5">
       <div class="row">
         <div class="col-12 col-sm-6 col-md-3">
-          <h6>Quick links</h6>
+          <h6>Szybkie linki</h6>
           <ul class="list-unstyled">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="team.html">Team</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html">Główna</a></li>
+            <li><a href="services.html">Oferta</a></li>
+            <li><a href="about.html">O nas</a></li>
+            <li><a href="team.html">Zespół</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
           </ul>
         </div>
         <div class="col-12 col-sm-6 col-md-3">
-          <h6>Information</h6>
+          <h6>Informacja</h6>
           <ul class="list-unstyled">
-            <li><a href="policy.pdf">Legal information</a></li>
-            <li><a href="#0">Job opportunities</a></li>
-            <li><a href="#0">Frequently Asked Questions</a></li>
+            <li><a href="../policy.pdf">Polityka prywatności</a></li>
+            <li><a href="#0">Oferty pracy</a></li>
+            <li><a href="#0">FAQ</a></li>
           </ul>
         </div>
         <div class="col-12 col-sm-6 col-md-3">
-          <h6>Follow us</h6>
+          <h6>Śledź nas</h6>
           <ul class="list-unstyled">
-            <li><a href="https://www.facebook.com/ecoyumi/"><i class="fab fa-fw fa-facebook"></i> Facebook</a></li>
+            <li><a href="https://www.facebook.com/ecoyumi/"><i class="fab fa-fw fa-facebook"></i>
+                Facebook</a></li>
             <li><a href="https://github.com/lukvad"><i class="fab fa-fw fa-github"></i> Github</a>
             </li>
-            <li><a href="https://twitter.com/LukvadUkasz"><i class="fab fa-fw fa-twitter"></i> Twitter</a></li>
+            <li><a href="https://twitter.com/LukvadUkasz"><i class="fab fa-fw fa-twitter"></i> Twitter</a>
+            </li>
             <li><a href="https://www.youtube.com/watch?v=-g3otDeuZFs&t=3s"><i class="fab fa-fw fa-youtube"></i>
                 YouTube</a></li>
             <li><a href="https://www.linkedin.com/company/seaman-did/"><i class="fab fa-fw fa-linkedin"></i>
@@ -173,7 +175,7 @@
           </ul>
         </div>
         <div class="col-12 col-sm-6 col-md-3">
-          <h6>Our location</h6>
+          <h6>Nasza lokalizacja</h6>
           <address>
             <strong></strong><br>
             Romana Dmowskiego 3/9<br>
@@ -185,11 +187,11 @@
       </div>
       <ul class="list-inline mt-2 mb-0 text-center">
         <li class="list-inline-item">&copy; 2020 Daolab</li>
-        <li class="list-inline-item">All rights reserved.</li>
+        <li class="list-inline-item">Wszystkie prawa zastrzeżone.</li>
       </ul>
     </div>
   </footer>
-  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
